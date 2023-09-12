@@ -6,6 +6,7 @@ from .redact import Redact
 from .replace import Replace
 from .custom import Custom
 from .keep import Keep
+from .custom_deanonymize import CustomDeanonymize
 from .encrypt import Encrypt
 from .decrypt import Decrypt
 from .aes_cipher import AESCipher
@@ -20,6 +21,7 @@ __all__ = [
     "Keep",
     "Replace",
     "Custom",
+    "CustomDeanonymize",
     "Encrypt",
     "Decrypt",
     "AESCipher",
