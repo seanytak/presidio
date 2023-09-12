@@ -31,7 +31,7 @@ class CustomDeanonymize(Operator):
 
     def operator_name(self) -> str:
         """Return operator name."""
-        return "custom"
+        return "custom-deanonymize"
 
     def operator_type(self) -> OperatorType:
         """Return operator type."""
